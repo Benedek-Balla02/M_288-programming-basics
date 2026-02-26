@@ -3,3 +3,14 @@
  * Dann gebt folgenden String aus: `Hallo 'name', du bist 'alter' Jahre alt und arbeitest als 'beruf'`.
  */
 
+let Fabio = {
+    name: "Fabio",
+    beruf: "Mediamatiker",
+    alter: "18"
+}
+
+console.log(
+    "Hallo " + Fabio.name,
+    "du bist " + Fabio.alter,
+    "und arbeitest als " + Fabio.beruf
+)

@@ -6,3 +6,7 @@
     https://www.w3schools.com/js/js_numbers.asp
 **/
 "use strict";
+let helloString = "Hallo "
+let yourName = "Leandro"
+
+console.log(helloString + yourName);

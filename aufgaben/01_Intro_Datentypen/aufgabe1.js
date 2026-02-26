@@ -4,3 +4,4 @@
 
     In die console schreibt ihr mit console.log()
 **/ 
+console.log("lalaland!");
