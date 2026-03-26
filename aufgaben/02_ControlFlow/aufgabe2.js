@@ -10,3 +10,15 @@
  */
 
 
+const personen = [
+    { name: "Janis", alter: 17 },
+    { name: "Thierry", alter: 95 },
+    { name: "Fabio", alter: 67 },
+    { name: "Bafio", alter: 33 },
+    { name: "Gianluigi", alter: 19 }
+  ];
+
+ 
+  personen
+    .filter(person => person.alter > 20)
+    .forEach(person => console.log(person.name));
